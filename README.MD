@@ -5,15 +5,15 @@ If anyone want very lightweight boilerplate similar to create-react-app you can 
 ## Usage
 
 1.  `git clone https://github.com/redgitnum/react-webpack-boilerplate.git`
-2.  `npm install` to insall dependencies
+2.  `npm install` to install dependencies
 3.  `npm start` to run live server on port 3000
 4.  `npm run build` to build for production
 
 ## Supported files
 
-`.html` for index template,
-`.css` for styles,
-`.png, .jp(e)g, .gif, .svg` for images
+`.html` for index template,  
+`.css` for styles,  
+`.png, .jp(e)g, .gif, .svg` for images  
 `.js` for react components and other files
 
 add more loaders/plugins if needed
