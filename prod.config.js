@@ -5,11 +5,13 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
   mode: "production",
-  entry: "./src/index.js",
+  entry: ["core-js/stable", "regenerator-runtime/runtime", "./src/index.js"],
+
   devtool: "hidden-source-map",
   output: {
     path: path.resolve(__dirname, "build"),
-    filename: "js/main.[hash].bundle.js",
+    filename: "js/[name].[hash].bundle.js",
+    chunkFilename: "js/[name].[chunkhash].js",
   },
   plugins: [
     new CleanWebpackPlugin(),
@@ -41,5 +43,10 @@ module.exports = {
         },
       },
     ],
+  },
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
   },
 };

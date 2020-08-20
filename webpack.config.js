@@ -23,7 +23,7 @@ module.exports = {
       console.log("\x1b[36m", "Listening on port:", port);
     },
   },
-  entry: "./src/index.js",
+  entry: ["core-js/stable", "regenerator-runtime/runtime", "./src/index.js"],
   devtool: "source-map",
   output: {
     path: path.resolve(__dirname, "build"),

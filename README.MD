@@ -1,10 +1,10 @@
-# React-webpack-boilerplate-lite
+# React-reduxjs/toolkit-webpack-boilerplate-lite
 
-If anyone want very lightweight boilerplate similar to create-react-app you can try this repo.
+If anyone want very lightweight boilerplate similar to create-react-app with redux toolkit setup you can try this repo.
 
 ## Usage
 
-1.  `git clone https://github.com/redgitnum/react-webpack-boilerplate.git`
+1.  `git clone https://github.com/redgitnum/react-reduxjs-toolkit-webpack-boilerplate.git`
 2.  `npm install` to install dependencies
 3.  `npm start` to run live server on port 3000
 4.  `npm run build` to build for production

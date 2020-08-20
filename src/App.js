@@ -1,4 +1,5 @@
 import React from "react";
+import ReduxSample from "./components/ReduxSample";
 
 const App = () => {
   return (
@@ -6,6 +7,7 @@ const App = () => {
       <div>
         <h1>React webpack boilerplate</h1>
         <div>Feel free to use this boilerplate for your projects</div>
+        <ReduxSample />
       </div>
     </div>
   );
