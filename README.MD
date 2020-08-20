@@ -4,7 +4,7 @@ If anyone want very lightweight boilerplate similar to create-react-app you can 
 
 ## Usage
 
-1.  `git clone` this repo
+1.  `git clone https://github.com/redgitnum/react-webpack-boilerplate.git`
 2.  `npm install` to insall dependencies
 3.  `npm start` to run live server on port 3000
 4.  `npm run build` to build for production
